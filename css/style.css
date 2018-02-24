@@ -1,5 +1,6 @@
 body {
   background-color: #b0b0b0 ;
+  background-image: url("imgs/1.jpg");
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
@@ -21,6 +22,9 @@ footer{
   text-align: center;
   height: 80px;
   padding-top: 30px;
+}
+nav:{
+  position: fixed;
 }
 nav a{
   text-transform: uppercase;
