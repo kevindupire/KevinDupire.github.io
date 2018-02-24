@@ -1,0 +1,17 @@
+body {
+  background-color: #b0b0b0 ;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+header{
+  font-size: 65px ;
+  text-align: center;
+
+}
+footer{
+  text-align: center;
+  height: 80px;
+  padding-top: 30px;
+}
