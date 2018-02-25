@@ -1,36 +1,52 @@
 body {
-  background-color: #b0b0b0 ;
-  background-image: url("imgs/1.jpg");
+  background-color: black;
+  background-image: url("../imgs/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
-
 }
 header{
-  height:100px;
+  height: 200px;
   }
-h1{
-  font-size: 70px;
-  font-weight: normal;
-  text-align: center;
-  }
-  h2{
-    text-align: center;
-    text-transform: uppercase;
-  }
+h2{
+  padding-top: 30px;
+}
 footer{
   text-align: center;
   height: 80px;
-  padding-top: 30px;
+  padding-top: 500px;
 }
-nav:{
+
+nav{
   position: fixed;
+  opacity: 0.9;
 }
 nav a{
   text-transform: uppercase;
   text-align: center;
+  text-decoration-color: red;
+
 }
 .mr-auto{
   margin-left: auto;
   margin-right: auto;
+}
+.titre1{
+    color: #000000;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 125px;
+}
+.sousligne{
+  text-decoration: underline;
+  font-size: 90px;
+}
+.navbar-brand{
+  font-family: ceviche one;
+  font-size: 40px;
+  color: #fd4703;
 }
