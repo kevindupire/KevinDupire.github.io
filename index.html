@@ -18,6 +18,7 @@
     <!--   custom fonts   -->
     <link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 
     <!--   css   -->
     <link rel="stylesheet" href="css/style.css">
@@ -26,23 +27,23 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="index.html">Kevin Dupire</a>
+  <a class="navbar-brand" href="#">Kevin Dupire</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Qui suis-je</a>
+            <a class="nav-link" href="#presentation">Qui suis-je</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="experiencepro.html">Experience pro</a>
+            <a class="nav-link" href="#experiencepro">Experience pro</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="hobbies.html">Hobbies</a>
+            <a class="nav-link" href="#hobbies">Hobbies</a>
           </li>
         </ul>
       </div>
@@ -50,17 +51,17 @@
 
     <header>
       <div class="titre1">
-        <h1 class="brand-heading"><span class="sousligne">Développeur web</span><br> freelance</h1>
+        <h1 class="brand-heading">Développeur web<br>freelance</h1>
         <h2><a href="kevdup59@gmail.com">kevdup59@gmail.com</a></h2>
       </div>
     </header>
 
     <!--   Qui suis-je  Presentation   -->
     <section class="bg-light" id="presentation">
-      <h3> Qui suis-je </h3>
         <div class="container">
+          <h3> Qui suis-je </h3>
           <div class="top">
-            <img class="photos" src="../imgs/photo1.jpg" alt="ma photo">
+            <img class="photos" src="../imgs/photo1.jpg" alt="ma photo" class="rounded-circle">
             <h4> Kevin Dupire </h4>
             <p> Developpeur web </p>
           </div>
@@ -71,6 +72,49 @@
           <br><br>
           <p> De formation autodidacte au métier de developpeur web, j'ai acquis les compétences nécessaires à la réalisation de sites web.</p>
         </div>
+    </section>
+
+    <!--   Expérience pro   -->
+    <section id="experiencepro">
+      <div class="container">
+        <h3>Expériences professionnelles</h3>
+      </div>
+    </section>
+
+    <!--   contact   -->
+    <section id="contact">
+      <div class="container">
+        <div class="well well-sm">
+          <h3><strong>Contact</strong></h3>
+        </div>
+
+    	<div class="row">
+    	  <div class="col-md-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-md-5">
+              <h4><strong>Entrer en contact</strong></h4>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="" value="" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+              </div>
+              <button class="btn btn-default" type="submit" name="button">
+                  <i class="fa fa-paper-plane-o" aria-hidden="true">kevdup59@gmail.com</i> Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
       <p>Copiright 2018 Kevin Dupire - Toute reproduction interdite</p>
